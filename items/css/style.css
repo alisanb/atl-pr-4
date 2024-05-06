@@ -1,0 +1,447 @@
+@import url(reset.css);
+
+* > p{
+    color: #D9D9D9;
+}
+
+body {
+    margin: 0 auto;
+    width: 1200px;
+    background-color: balck;    
+    display: flex;
+}
+
+.left{
+    width: 875px;
+    height: 1080px;
+    margin-right: 30px;
+    display: flex;
+}
+
+.sidebar{
+    width: 275px;
+    height: 1080px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.timeline{
+    width: 600px;
+    height: 1080px;
+    border: 1px solid #2F3336;
+    display: flex;
+    flex-direction: column;
+}
+.tw-logo{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.tw-logo:hover{
+    background-color: rgb(61, 61, 61);
+}
+.tw-logo:active{
+    background-color: rgb(61, 61, 61);
+}
+.nv-details{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    padding-left: 14px;
+    border-radius: 50px;
+    font-family: SF Pro Display;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 22.67px;
+    text-align: left;
+}
+
+.nv-details:hover{
+    cursor: pointer;
+    height: 50px;
+    background-color: rgb(61, 61, 61);
+}
+
+.nv-details:active{
+    cursor: pointer;
+    height: 50px;
+    background-color: rgb(61, 61, 61);
+}
+.navigation{
+    margin-top: 4px;
+    margin-left: 12px;
+    margin-bottom: 16px;
+    width: 251px;
+    height: 514px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.button-tweet{
+    width: 225px;
+    height: 52px;
+    border-radius: 52px;
+    background-color: #1D9BF0;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.button-tweet > p{
+    font-family: SF Pro Display;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20.29px;
+    text-align: left;
+    width: 53px;
+    height: 20px;
+    margin: 16px auto;
+
+}
+
+.profile-settings{
+    width: 251px;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 418px;
+    margin-left: 12px;
+    gap: 30px;
+    align-items: center;
+}
+
+.bradley{
+    margin-left: 12px;
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+}
+.brdly{
+    color: #6E767D;
+}
+.details > p{
+    font-family: SF Pro Display;
+font-size: 15px;
+font-weight: 700;
+line-height: 17.9px;
+text-align: left;
+}
+.img-container{
+    width: 24px;
+    height: 24px;
+}
+
+.more-more{
+    margin-right: 12px;
+}
+.home-tw{
+    width: 599px;
+    height: 53px;
+    border-bottom: 1px solid #2F3336;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 486px;
+
+}
+
+.home-tw > p{
+    font-family: SF Pro Display;
+font-size: 20px;
+font-weight: 700;
+line-height: 23.87px;
+text-align: left;
+
+}
+
+.stars:hover{
+    cursor: pointer;
+}
+
+.edit-tweet{
+    width: 600px;
+    height: 119px;
+    border-bottom: 1px solid #2F3336;
+    display: flex;
+    flex-direction: column;
+}
+.edit-tweet-img{
+    display: flex;
+    flex-direction: row;
+}
+.whats:hover{
+    border:none;
+}
+
+
+.whats{
+    border: none;
+    border-radius: 24px;
+background-color: black;
+    font-family: SF Pro Display;
+font-size: 20px;
+font-weight: 400;
+line-height: 23.87px;
+text-align: left;
+color: #6E767D;
+
+margin-left: 12px;
+margin-top: 20px;
+}
+.meta{
+    width: 520px;
+height: 48px;
+margin-left: 66px;
+
+padding: 12px 2px 0px 2px;
+gap: 0px;
+opacity: 0px;
+
+}
+.boxbox{
+    width: 598px;
+    border-bottom: 1px solid #2F3336;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+.cnn{
+    height: 167px;
+}
+.cnn2{
+    height: 127px;
+}
+.thenyt{
+    height: 446px;
+}
+.name__blog{
+    display: flex;
+    flex-direction: row;
+}
+.news_img{
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+    margin-left: 16px;
+    margin-top: 12px;
+}
+.news_content{
+    width: 506px;
+    display: flex;
+    flex-direction: column;
+}
+.news__header{
+    display: flex;
+    flex-direction: row;
+}
+.span__blog__name{
+    font-family: SF Pro Display;
+font-size: 15px;
+font-weight: 700;
+line-height: 17.9px;
+text-align: left;
+color: white;
+
+}
+.my__span{
+    color: #6E767D;
+    font-family: SF Pro Display;
+font-size: 15px;
+font-weight: 300;
+line-height: 17.9px;
+text-align: left;
+margin-left: 10px;
+}
+
+.twttr1{
+    width: 598px;
+    height: 113px;
+    padding: 12px 16px 12px 16px;
+    gap: 12px;
+    opacity: 0px;
+}
+.twttr2{
+    width: 598px;
+    height: 113px;
+    padding: 12px 16px 12px 16px;
+    gap: 12px;
+    opacity: 0px;
+}
+.twttr3{
+    width: 598px;
+    height: 113px;
+    padding: 12px 16px 12px 16px;
+    gap: 12px;
+    opacity: 0px;
+}
+.news__text{
+    height: 72px;
+    width: 506px;
+    margin-top: 7px;
+    font-family: SF Pro Display;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17.9px;
+    text-align: left;
+}
+
+.news__footer{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.twttr__icon__txt{
+    font-family: SF Pro Display;
+font-size: 13px;
+font-weight: 300;
+line-height: 15.51px;
+text-align: left;
+color: #6E767D;
+}
+
+.right{
+    width: 360px;
+    height: 1080px;
+
+}
+
+
+.search__bar{
+    width: 350px;
+height: 42px;
+margin-top: 6px;
+border-radius: 42px;
+background-color: #202327;
+display: flex;
+flex-direction: row;
+
+}
+.search__img{
+    width: 42px;
+    height: 42px;
+    display: inline-block;
+}
+.search{
+    font-family: SF Pro Display;
+font-size: 15px;
+font-weight: 400;
+line-height: 17.9px;
+text-align: left;
+display: inline-block;
+margin-top: 12px;
+color: #6E767D;
+
+border: none;
+border-radius: 24px;
+background-color: #202327;
+font-family: SF Pro Display;
+font-size: 20px;
+font-weight: 400;
+line-height: 23.87px;
+text-align: left;
+color: #6E767D;
+
+}
+.div__search{
+    width: 127px;
+    height: 42px;
+    display: inline-block;
+}
+.trending{
+    width: 350px;
+height: 426px;
+margin-top: 12px;
+border-radius: 15px;
+background-color: #202327;
+
+}
+
+.who_to_follow{
+    width: 350px;
+height: 314px;
+margin-top: 16px;
+border-radius: 15px;
+background-color: #202327;
+}
+
+.privacy_policy{
+    width: 350px;
+height: 40px;
+margin-top: 16px;
+
+display: flex;
+flex-wrap: wrap;
+gap: 12px;
+}
+.p_pp{
+    font-family: SF Pro Display;
+font-size: 13px;
+font-weight: 300;
+line-height: 15.51px;
+text-align: left;
+color: #6E767D;
+padding: 0px 12px 0px 0px ;
+}
+
+.trending_box{
+    display: flex;
+flex-direction: row;
+height: 48px;
+align-items: center;
+}
+.squid{
+    width: 350px;
+height: 82px;
+}
+.show{
+    width: 350px;
+height: 50px;
+
+}
+.squid_txt{
+    font-family: SF Pro Display;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.51px;
+    text-align: left;
+    color: #6E767D;
+    
+}
+.fllw_cnn{
+    width: 350px;
+height: 72px;
+display: flex;
+}
+.follow{
+    width: 350px;
+height: 48px;
+}
+.fllw_body{
+    height: 48px;
+    width: 258px;
+    margin-left: 12px;
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.fllw_txt{
+    width: 168px;
+    height: 48px;
+}
+.fllw_btn{
+    height: 48px;
+    width: 73px;
+}
+.fllw_btn > button{
+    font-family: SF Pro Display;
+    height: 31px;
+    width: 73px;
+    background-color: white;
+    color: black;
+    border-radius: 32px;
+    border: none;
+}
